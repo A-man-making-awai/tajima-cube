@@ -19,7 +19,7 @@ class App extends React.Component {
             this.setState({
                 toggle
             })
-        }, 3000)
+        }, 30000)
     }
 
     render() {
