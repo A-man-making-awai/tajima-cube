@@ -1,6 +1,7 @@
 {
   "name": "tajima-cube",
   "version": "0.0.1",
+  "homepage" : "https://tajima-cube.herokuapp.com/",
   "private": true,
   "dependencies": {
     "basic-auth-connect": "^1.0.0",
