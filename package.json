@@ -2,13 +2,8 @@
   "name": "tajima-cube",
   "version": "0.0.1",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "^2.0.2"
-  },
-  "prodDependencies": {
-    "react-scripts": "^2.0.2"
-  },
   "dependencies": {
+    "react-scripts": "^2.0.2",
     "history": "^4.7.2",
     "prop-types": "^15.6.1",
     "react": "^16.3.1",
