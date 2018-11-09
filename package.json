@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "react-scripts": "^2.0.2",
+    "basic-auth": "^2.0.1",
     "history": "^4.7.2",
     "prop-types": "^15.6.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-redux": "^5.0.7",
+    "react-scripts": "^2.0.2",
     "redux": "^3.5.2"
   },
   "scripts": {
