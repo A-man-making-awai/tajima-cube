@@ -1,8 +1,6 @@
 import { combineReducers } from 'redux'
-import listDesign from './listDesign'
-import btnCloser from './btnCloser'
+import all from './all'
 
 export default combineReducers({
-    listDesign,
-    btnCloser
+    all,
 })

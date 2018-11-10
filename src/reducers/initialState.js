@@ -1,8 +1,6 @@
 const initialState = {
-    listDesign: {
-        moji: ''
-    },
-    btnCloser: {
+    all: {
+        moji: '',
         clicked: false
     }
 }

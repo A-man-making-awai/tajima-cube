@@ -1,7 +1,11 @@
 import initialState from './initialState'
 
-const listDesign = (state = initialState, action) => {
+const all = (state = initialState, action) => {
     switch (action.type) {
+        case 'ON_CLICK':
+            return Object.assign({}, state, {
+                clicked: true
+            })
         case 'ON_ENTER':
             return Object.assign({}, state, {
                 moji: action.moji
@@ -15,4 +19,4 @@ const listDesign = (state = initialState, action) => {
     }
 }
 
-export default listDesign
+export default all

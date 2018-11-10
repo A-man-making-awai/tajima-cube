@@ -3,7 +3,7 @@ import BtnCloser from '../components/BtnCloser'
 import { onClick } from '../actions'
 
 const mapStateToProps = state => ({
-    clicked: state.btnCloser.clicked
+    clicked: state.all.clicked
 })
 
 const mapDispatchToProps = dispatch => ({
